@@ -2,7 +2,6 @@ import Log.*;
 import Item.*;
 import java.time.*; 
 import java.util.*;
-import javafx.util.*;
 import javafx.stage.*;
 import javafx.event.*;
 import javafx.geometry.*;
@@ -26,8 +25,6 @@ import javafx.scene.control.ScrollPane.*;
 import java.time.format.DateTimeFormatter;
 import java.lang.NumberFormatException;
 import javafx.beans.property.SimpleBooleanProperty;
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.TableColumn.CellEditEvent;
 
 public class InfoStage extends Stage{
 

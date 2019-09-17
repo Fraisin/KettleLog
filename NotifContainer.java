@@ -134,6 +134,10 @@ public class NotifContainer{
             linkBtn.setDisable(false);
         }
 
+        if(kettle.getItemById(notif.getItemId())==null){
+            linkBtn.setDisable(true);
+        }
+
         if(notif.getReadStatus()==1){//read
             hb.setOpacity(0.5);
             readImg.setImage(unread);
